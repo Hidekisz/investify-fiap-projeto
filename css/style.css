@@ -1,0 +1,125 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+:root {
+    --bg-verde: #119e1d;
+    --bg-branco: #d8d8d8;
+    --bg-azul: #e7edee;
+    --margin-top: 100px;
+}
+
+button:focus {
+    box-shadow: 0;
+}
+
+.full-screen{
+    min-height: 50vh;
+}
+.logo-text {
+    font-size: 1.8rem;
+    color: var(--bg-verde);
+    font-weight: 800;
+}
+
+.logo-icon {
+    color: var(--bg-verde);
+}
+
+.my-mt {
+    margin-top: var(--margin-top);
+}
+
+.nav-item a {
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.nav-link:hover{
+    color: var(--bg-verde);
+}
+
+.my-title {
+    color: var(--bg-verde);
+    font-weight: 700;
+
+}
+
+.bg-blue-2 {
+    background-color: var(--bg-branco);
+}
+
+.sobre {
+    min-height: 75vh;
+}
+
+
+.icon {
+    font-size: 60px;
+    color: var(--bg-verde);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.icon-nav{
+    font-size: 30px;
+    margin: 10px;
+    color: var(--bg-verde);
+}
+
+.card {
+    transition: .5s;
+}
+
+.card:hover {
+    background-color: var(--bg-verde);
+}
+
+.card:hover .icon {
+    transform: scale(1.3);
+}
+
+.card-equipe{
+    transition: .5s;
+}
+.card-equipe:hover{
+    background-color: #e7e7e7;
+}
+
+.card-equipe:hover a{
+    color: var(--bg-azul);
+}
+
+.icon-social,
+.icon-contato {
+    font-size: 2rem;
+    color: var(--bg-verde);
+    transition: .5s;
+}
+
+.icon-social:hover {
+    color: #00ff15;
+}
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.icon-img{
+    width: 7rem;
+    height: 7rem;
+    
+}
+
+
+
+@media(max-width:959px) {
+    #sobre{
+        text-align: center;
+    }
+}
+
